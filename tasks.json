@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "id": 1,
+        "description": "Task Tracker",
+        "status": "done",
+        "createdAt": "2026-08-20T20:27:23.033053",
+        "updatedAt": "2026-08-20T20:29:26.646382"
+    },
+    {
+        "id": 2,
+        "description": "GitHub User Activity",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:27:40.104966",
+        "updatedAt": "2026-08-20T20:27:40.104966"
+    },
+    {
+        "id": 3,
+        "description": "Expense Tracker",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:27:49.280956",
+        "updatedAt": "2026-08-20T20:27:49.280956"
+    },
+    {
+        "id": 4,
+        "description": "Unit Converter",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:28:07.935644",
+        "updatedAt": "2026-08-20T20:28:07.935644"
+    },
+    {
+        "id": 5,
+        "description": "Personal Blog",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:28:16.218764",
+        "updatedAt": "2026-08-20T20:28:16.218764"
+    },
+    {
+        "id": 6,
+        "description": "Weather API",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:28:27.624425",
+        "updatedAt": "2026-08-20T20:28:27.624425"
+    },
+    {
+        "id": 7,
+        "description": "Expense Tracker API",
+        "status": "todo",
+        "createdAt": "2026-08-20T20:29:15.446185",
+        "updatedAt": "2026-08-20T20:29:15.446185"
+    }
+]

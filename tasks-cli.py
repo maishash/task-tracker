@@ -94,22 +94,22 @@ class Task:
         if status == None:
             print("--- LIST OF ALL TASKS ---")
             for task in listoftasks:
-                print(f"Task ID: {task['id']}, Task: {task['description']}")
+                print(f"Task ID: {task['id']}  Task: {task['description']}  Status: {task['status']}")
         elif status == 'todo':
             print("--- LIST OF ALL TASKS THAT ARE NOT DONE ---")
             for task in listoftasks:
                 if task['status'] == 'todo':
-                    print(f"Task ID: {task['id']}, Task: {task['description']}")
+                    print(f"Task ID: {task['id']}  Task: {task['description']}")
         elif status == 'in-progress':
             print("--- LIST OF ALL TASKS THAT ARE IN PROGRESS ---")
             for task in listoftasks:
                 if task['status'] == 'in-progress':
-                    print(f"Task ID: {task['id']}, Task: {task['description']}")
+                    print(f"Task ID: {task['id']}  Task: {task['description']}")
         elif status == 'done':
             print("--- LIST OF ALL TASKS THAT ARE DONE ---")
             for task in listoftasks:
                 if task['status'] == 'done':
-                    print(f"Task ID: {task['id']}, Task: {task['description']}")
+                    print(f"Task ID: {task['id']}  Task: {task['description']}")
         else:
             print(f"Invalid status: '{status}'. Use 'todo', 'in-progress', or 'done'.") 
 

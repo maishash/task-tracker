@@ -18,7 +18,7 @@ Prerequisites
 Installation
 
 1. Clone this repository:
-git clone https://github.com/maishash/task-tracker.git
+git clone https://github.com/maishash/task-tracker
 
 2. Navigate into the project directory:
 cd task-tracker
